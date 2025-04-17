@@ -1,13 +1,8 @@
-# DO NOT include azure-functions-worker in this file
-# The Python Worker is managed by Azure Functions platform
-# Manually managing azure-functions-worker may cause unexpected issues
-
-azure-functions
-
 asttokens==3.0.0
 attrs==25.3.0
 azure-common==1.1.28
 azure-core==1.32.0
+azure-functions==1.23.0
 azure-identity==1.21.0
 azure-mgmt-core==1.5.0
 azure-mgmt-storage==22.1.1
@@ -20,6 +15,7 @@ certifi==2024.8.30
 cffi==1.17.1
 charset-normalizer==3.4.0
 colorama==0.4.6
+coverage==7.8.0
 cryptography==43.0.3
 decorator==5.2.1
 defusedxml==0.7.1
@@ -73,11 +69,9 @@ Pygments==2.19.1
 PyJWT==2.10.1
 pytest==8.3.5
 pytest-mock==3.14.0
-coverage==7.8.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2024.2
-pywin32==310
 pyzmq==26.3.0
 referencing==0.36.2
 requests==2.32.3
@@ -96,4 +90,5 @@ unittest2==1.1.0
 urllib3==2.2.3
 wcwidth==0.2.13
 webencodings==0.5.1
+Werkzeug==3.1.3
 yarg==0.1.9
